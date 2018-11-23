@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-Up/Login Form</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="form">
+      
+      <ul class="tab-group">
+        <li class="tab active"><a href="#signup">Đăng kí</a></li>
+        <li class="tab"><a href="#login">Đăng nhập</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="signup">   
+          <h1>Đăng Kí Miễn Phí</h1>
+          
+          <form action="/" method="post">
+          
+          <div class="top-row">
+            <div class="field-wrap">
+              <input type="text" required placeholder="Họ và tên lót *" />
+            </div>
+        
+            <div class="field-wrap">
+              <input type="text" required placeholder="Tên *"/>
+            </div>           
+          </div>
+
+          <div class="field-wrap">
+            <input type="email" required placeholder="Địa chỉ email *"/>
+          </div>
+          
+          <div class="field-wrap">
+            <input type="password"required placeholder="Mật khẩu *"/>
+          </div>
+          
+          <button type="submit" class="button button-block"/>Chấp Nhận</button>
+          
+          </form>
+
+        </div>
+        
+        <div id="login">   
+          <h1>Chào Mừng Bạn</h1>
+          
+          <form action="/" method="post">
+          
+            <div class="field-wrap">
+            <input type="email"required placeholder="Địa chỉ email"/>
+          </div>
+          
+          <div class="field-wrap">
+            <input type="password"required placeholder="Mật khẩu"/>
+          </div>
+          
+          <p class="forgot"><a href="#">Quên mật khẩu?</a></p>
+          
+          <button class="button button-block"/>Đăng nhập</button>
+          
+          </form>
+
+        </div>
+        
+      </div><!-- tab-content -->
+      
+</div> <!-- /form -->
+ 
+</body>
+
+</html>
